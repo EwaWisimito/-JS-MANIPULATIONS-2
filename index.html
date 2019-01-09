@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Thasadith" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container" id="modal-container">
+        <div class="blackboard">
+        </div>
+        <div class="btn">
+            <button class="plus" id="plus"> + </button>
+        </div>
+        <div id="modal">
+            <div id="modal-content">
+                <button id="close-btn">x</button>
+                <div id="modal-header">
+                    <h2>Add New Rectangle</h2>
+                </div>
+                <div id="modal-body">
+                    <div class="select-size">
+                        <div class="select-size-header">
+                            <h4>Select Size</h4>
+                        </div>
+                        <div class="select-size-body">
+                            <div class="size-button" id="small-rectangle">small</div>
+                            <div class="size-button" id="medium-rectangle">medium</div>
+                            <div class="size-button" id="large-rectangle">large</div>
+                        </div>
+                    </div>
+                    <div class="select-color">
+                        <div class="select-color-header">
+                            <h4>Select Color</h4>
+                        </div>
+                        <div class="select-color-body">
+                            <div class="color-button" id="first-rectangle-color"></div>
+                            <div class="color-button" id="second-rectangle-color"></div>
+                            <div class="color-button" id="third-rectangle-color"></div>
+                            <div class="color-button" id="fourth-rectangle-color"></div>
+                            <div class="color-button" id="fifth-rectangle-color"></div>
+                            <div class="color-button" id="sixth-rectangle-color"></div>
+                        </div>
+                    </div>
+                    <div class="select-position">
+                        <div class="select-positon-header">
+                            <h4>Select Position</h4>
+                        </div>
+                        <div class="select-position-body">
+                            <div class="position-button" id="rectangle-position-start">start</div>
+                            <div class="position-button" id="rectangle-position-end">end</div>
+                        </div>
+                    </div>
+                    <div class="select-place">
+                        <div class="select-place-header">
+                            <h4>or after which element place</h4>
+                        </div>
+                        <div class="select-place-body">
+                            <div class="place-button" id="first-rectangle-place">1</div>
+                            <div class="place-button" id="second-rectangle-place">2</div>
+                            <div class="place-button" id="third-rectangle-place">3</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-footer">
+                    <button class = "add-rec-btn" id="add-rectangle-btn">Add</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

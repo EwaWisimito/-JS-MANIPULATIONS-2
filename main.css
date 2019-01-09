@@ -1,0 +1,231 @@
+/* body */
+
+body{
+    background-color: rgb(197, 184, 184);
+    font-family: 'Dosis', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+   
+    
+}
+
+.blackboard{ 
+    background-color: rgba(37, 35, 35, 0.993);
+    width: 40vh;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+.btn{
+    width: 40vh;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+
+
+}
+
+.plus{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    text-align: center;
+    display:table-cell;
+    vertical-align: middle;
+    line-height: 50px;
+    margin: 2px;
+
+}
+
+.plus:hover{
+    cursor: pointer;
+
+
+}
+
+/* modal */
+
+#modal{
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content{
+    background-color: rgb(231, 227, 227);
+    margin: 3% auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 60%;
+    
+}
+
+#close-btn{
+    float: right;
+}
+
+#close-btn:hover{
+    cursor: pointer;
+}
+
+#modal-header h2{
+    text-align: center;
+}
+
+ h4{
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.select-size-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.size-button{
+    width: 30%;
+    height: 40px;
+    padding-top: 15px;
+    background: darkslategray;
+    color:whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.size-button:hover{
+    cursor: pointer;
+    background-color: rgb(30, 51, 51);
+}
+
+.select-color-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.color-button{
+    width: 30%;
+    height: 60px;
+    background: darkslategray;
+    color:whitesmoke;
+    margin: 2px;
+    transition-duration: 1s;
+    display: block;
+
+}
+
+.color-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 0;
+}
+
+#first-rectangle-color{
+    background-color: #A7CD2C;
+}
+
+#second-rectangle-color{
+    background-color: #73C8A9;
+}
+#third-rectangle-color{
+    background-color: #0A837F;
+}
+#fourth-rectangle-color{
+    background-color: #FFBE40;
+}
+#fifth-rectangle-color{
+    background-color: #FF3D7F;
+}
+#sixth-rectangle-color{
+    background-color: #FF3D00;
+}
+
+.select-position-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.position-button{
+    width: 45%;
+    height: 40px;
+    padding-top: 15px;
+    background: darkslategray;
+    color:whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.position-button:hover{
+    cursor: pointer;
+    background-color: rgb(30, 51, 51);
+}
+
+.select-place-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.place-button{
+    width: 10%;
+    height: 50px;
+    padding-top: 15px;
+    background: darkslategray;
+    color:whitesmoke;
+    margin: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.place-button:hover{
+    cursor: pointer;
+    background-color: rgb(30, 51, 51);
+}
+#modal-footer {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.add-rec-btn{
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    padding: 10px;
+    background-color: rgb(247, 108, 66) ;
+    color: rgba(0, 0, 0, 0.651);
+
+}
+
+.add-rec-btn:hover{
+    cursor: pointer;
+    background-color: #FF3D00;
+}
+@media only screen and (max-width: 780px){
+    #modal-content{
+        width: 80%;
+    }
+}
