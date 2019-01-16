@@ -20,7 +20,7 @@ window.addEventListener('click', function(event) {
 
 const selectSize = document.querySelector('.select-size');
  selectSize.addEventListener('click', (e)=>{
-    this.size = e.target.value;
+    this.size = e.target.dataSet.value;
     
  }, false);
   
@@ -73,7 +73,7 @@ addRectangles(){
 
 
 
-  const newRect = new Rectangles;
+  const newRect = new Rectangles()
 
   
 newRect.addRectangles()
