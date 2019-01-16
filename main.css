@@ -115,11 +115,36 @@ body{
     background-color: rgb(30, 51, 51);
 }
 
+.size-button:focus {
+    background-color: rgb(30, 51, 51);
+}
+
 .select-color-body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.sm-rec{
+    width: 30%;
+    height: 20px;
+    margin-top: auto ;
+    margin-bottom: auto;
+}
+
+.md-rec{
+    width: 60%;
+    height: 20px;
+    margin-top: auto ;
+    margin-bottom: auto;
+}
+
+.lg-rec{
+    width: 100%;
+    height: 20px;
+    margin-top: auto ;
+    margin-bottom: auto;
 }
 
 .color-button{
@@ -159,6 +184,31 @@ body{
 }
 #sixth-rectangle-color{
     background-color: #FF3D00;
+}
+
+/* rect-color */
+.green-rec{
+    background-color: #A7CD2C;   
+}
+
+.seablue-rec{
+    background-color: #73C8A9;   
+}
+
+.stormblue-rec{
+    background-color: #0A837F;   
+}
+
+.yellow-rec{
+    background-color: #FFBE40;   
+}
+
+.pink-rec{
+    background-color: #FF3D7F;   
+}
+
+.red-rec{
+    background-color: #FF3D00;   
 }
 
 .select-position-body{
